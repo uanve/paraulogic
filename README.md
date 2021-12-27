@@ -11,7 +11,7 @@ Per tant, en queden fora els noms propis, els plurals o bé els verbs conjugats.
 
 Aquesta eina recopil·la les paraules del diccionari, al fitxer de text, i a continuació introdueix les paraules coincidents.
 
-Prerequisits:
+## Prerequisits:
 - instal·lar selenium (pip install selenium)
 - instal·lar chromedriver.exe i copiar el fitxer al directori de treball. El chromedriver es pot descarregar aquí: [link](https://chromedriver.chromium.org/downloads)
 
