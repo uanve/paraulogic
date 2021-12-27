@@ -1,8 +1,8 @@
 # Com passar-se el paraulògic en 3 segons?
 
-Com s'hi juga al [paraulògic](http://paraulogic.rodamots.cat/)?
+![Alt Text](https://github.com/uanve/paraulogic/blob/main/sample.gif?raw=true)
 
-![Screenshot](https://github.com/uanve/paraulogic/blob/main/screenshot.PNG?raw=true)
+Com s'hi juga al [paraulògic](http://paraulogic.rodamots.cat/)?
 
 Per jugar al "Paraulògic", les vocals i consonants es poden anar repetint. L'única condició, és que a cada paraula ha de ser-hi la lletra del mig.
 Els mots que es formin han de tenir, com a mínim, tres lletres. Com més lletres tinguin les paraules, més punts sumarà l'usuari.
@@ -17,4 +17,4 @@ Prerequisits:
 - executar el fitxer main.py
 
 
-![Alt Text](https://github.com/uanve/paraulogic/blob/main/sample.gif?raw=true)
+
