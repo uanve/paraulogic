@@ -7,8 +7,8 @@ Els mots que es formin han de tenir, com a mínim, tres lletres. Com més lletre
 A més, s'ha de tenir en compte que totes les paraules han d'aparèixer al Diccionari de l'Institut d'Estudis Catalans. 
 Per tant, en queden fora els noms propis, els plurals o bé els verbs conjugats.  
 
-Aquesta eina recopil·la les paraules del diccionari al fitxer de text i a continuació introdueix les paraules coincidents.
+Aquesta eina recopil·la les paraules del diccionari, al fitxer de text, i a continuació introdueix les paraules coincidents.
 
 Prerequisits:
-tenir instal·lat selenium i el chromedriver a la carpeta. El chromedriver es pot descarregar aquí: [link](https://chromedriver.chromium.org/downloads)
-executar el fitxer main.py
+- tenir instal·lat selenium i el chromedriver a la carpeta. El chromedriver es pot descarregar aquí: [link](https://chromedriver.chromium.org/downloads)
+- executar el fitxer main.py
