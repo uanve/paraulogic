@@ -1,5 +1,7 @@
 Com s'hi juga al [paraulògic](http://paraulogic.rodamots.cat/)?
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 ![Screenshot](https://github.com/uanve/paraulogic/blob/main/screenshot.PNG?raw=true)
 
 Per jugar al "Paraulògic", les vocals i consonants es poden anar repetint. L'única condició, és que a cada paraula ha de ser-hi la lletra del mig.
