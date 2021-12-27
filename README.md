@@ -1,3 +1,5 @@
+# Com passar-se el paraulògic en 3 segons?
+
 Com s'hi juga al [paraulògic](http://paraulogic.rodamots.cat/)?
 
 ![Screenshot](https://github.com/uanve/paraulogic/blob/main/screenshot.PNG?raw=true)
