@@ -62,6 +62,7 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome('./chromedriver.exe')
 
 driver.get("https://paraulogic.rodamots.cat/")
+driver.refresh()
 print(driver.title)
 
 def input_paraula(mot):
@@ -84,10 +85,10 @@ input_paraula("zonat")
 import time
 for mot in paraules_avui(lletres)[:]:
     print("provant ",mot)
-    time.sleep(1)
+    time.sleep(0.2)
     input_paraula(mot)
     
-driver.close()
+# driver.close()
 
         
         
