@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Dec 31 16:17:53 2021
+
+@author: joanv
+"""
+
+import os
+os.chdir("C:/Users/joanv/OneDrive/Escritorio/paraulogic_joc/paraulogic")
+
+
 dic = {'à':'a', 'á':'a', '-':'', 'è':'e', 'é':'e', 'í':'i', 'ì':'i', 'ò':'o', 'ó':'o', 'ú':'u', 'ù':'u', 'ï':'i', '·':''}
 def replace_all(text, dic):
     for i, j in dic.items():
@@ -54,47 +65,13 @@ def paraules_avui(lletres):
     
 
 
-import time
+
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome('./chromedriver.exe')
 
-time.sleep(1)
 driver.get("https://paraulogic.rodamots.cat/")
-time.sleep(1)
-driver.refresh()
-time.sleep(1)
+# driver.refresh()
 print(driver.title)
-
-def input_paraula(mot):
-    
-    input_word = driver.find_element_by_id("test-word")
-    driver.execute_script("arguments[0].innerText = '{}'".format(mot), input_word)
-
-    enter = driver.find_element_by_id("submit-button")
-    enter.click()
-time.sleep(1)
-grid = driver.find_element_by_id("hex-grid")
-time.sleep(1)
-lletres = grid.text.lower().split("\n")
-time.sleep(1)
-lletra = lletres[3]
-
-input_paraula("zonat")
-
-
-
-
-
-for mot in paraules_avui(lletres)[:]:
-    print("provant ",mot)
-    time.sleep(0.2)
-    input_paraula(mot)
-    
-# driver.close()
-
-        
-        
-    

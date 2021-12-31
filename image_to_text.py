@@ -87,6 +87,7 @@ words_in_image('C:/Users/joanv/OneDrive/Escritorio/Capture.png')
             
             
             
+
         
 
 
